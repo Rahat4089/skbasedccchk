@@ -177,10 +177,11 @@ if ($location_state == "Alabama") {
 $show = 'iff';
 
 if(!$sk){
-    #$sk = "";
-$sks = array(
-""
-    $sk = $sks[array_rand($sks)];    
+  $sks = array(
+    "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",
+    "sk_live_NlJeWU5pTreChiHEnoTB2JfL006Onwtf0j"
+  );
+  $sk = $sks[array_rand($sks)];    
 }
 
 if(!$amount){
